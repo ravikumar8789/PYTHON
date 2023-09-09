@@ -1,0 +1,7 @@
+print(2+2)
+print(2*3)
+print(7/2)
+print(7//2)
+print(2**4)
+print(2**1.5)
+print(round(2**1.5, 4))

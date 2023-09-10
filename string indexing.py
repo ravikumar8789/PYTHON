@@ -5,9 +5,16 @@
 # print(lang[2:8])
 # print(lang[9::-1])
 
-palin= input("Enter any string to check weather it is palindrome or not : ")
-res= palin[: : -1]
-if(palin==res):
-    print("yes i am palindrome")
-else:
-    print("no i am not palindrome")
+# palin= input("Enter any string to check weather it is palindrome or not : ")
+# res= palin[: : -1]
+# if(palin==res):
+#     print("yes i am palindrome")
+# else:
+#     print("no i am not palindrome")
+
+# name= "ravi KUmar"
+
+# print(len(name))
+# print(name.lower())
+# print(name.upper())
+# print(name.count("a"))

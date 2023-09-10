@@ -19,8 +19,8 @@
 # print(name.upper())
 # print(name.count("a"))
 
-name= "          ravi         "
-dts="..."
+# name= "          ravi         "
+# dts="..."
 # print(name+dts)
 
 # print(name.lstrip()+dts)
@@ -28,4 +28,12 @@ dts="..."
 # print(name.strip()+dts)
 
 
-print(name.replace(" ", "")+dts)
+# print(name.replace(" ", "")+dts)
+
+
+string= "ravi is a good boy and he is very good boy"
+
+pos= string.find("is")
+print(pos)
+# print(string.replace(string.find(5), "are"))
+

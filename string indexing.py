@@ -18,3 +18,14 @@
 # print(name.lower())
 # print(name.upper())
 # print(name.count("a"))
+
+name= "          ravi         "
+dts="..."
+# print(name+dts)
+
+# print(name.lstrip()+dts)
+# print(name.rstrip()+dts)
+# print(name.strip()+dts)
+
+
+print(name.replace(" ", "")+dts)

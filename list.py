@@ -19,7 +19,7 @@ age=[23, 23, 20, 19]
 # print(nm)
 
 # name.extend(age)
-# name.append(age)
+name.append(age)
 # name.reverse()
 # print(name.count("ravi"))
 # name.pop()
@@ -52,17 +52,17 @@ age=[23, 23, 20, 19]
 # for j in matrix:
 #     print(j)
 #     break
-# print(name)
+print(name)
 
 
 
 
 # number= list(range(1,20))
 # print(number)
-numbers = [1,2,3,4,5,6,7,8,9]
+# numbers = [1,2,3,4,5,6,7,8,9]
 
-def neg(l):
-    for i in l:
-        print(numbers.index(i))
+# def neg(l):
+#     for i in l:
+#         print(numbers.index(i))
 
-neg(numbers)
+# neg(numbers)

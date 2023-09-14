@@ -1,8 +1,8 @@
 # numbers= [1,2,3,4,5,6,7]
 # print(numbers)
 
-name= ["ravi", "raja", "pintu", "loki", "ravi"]
-age=[23, 23, 20, 19]
+# name= ["ravi", "raja", "pintu", "loki", "ravi"]
+# age=[23, 23, 20, 19]
 # print(name)
 
 # mixed=[ "ravi", 7 , "loki", 8]
@@ -19,7 +19,7 @@ age=[23, 23, 20, 19]
 # print(nm)
 
 # name.extend(age)
-name.append(age)
+# name.append(age)
 # name.reverse()
 # print(name.count("ravi"))
 # name.pop()
@@ -52,9 +52,38 @@ name.append(age)
 # for j in matrix:
 #     print(j)
 #     break
-print(name)
+# print(name)
+# numbers=[]
+# length=int(input("Enter the size of list : "))
+# for i in range(0,length):
+#     ele= int(input())
+#     numbers.append(ele)
+
+# print(numbers)
 
 
+
+# lst = []
+# n = int(input("Enter number of elements : "))
+ 
+# for i in range(0, n):
+#     ele = [input(), int(input())]
+#     lst.append(ele)
+ 
+# print(lst)
+# creating an empty list
+# lst = []
+ 
+# # number of elements as input
+# n = int(input("Enter number of elements : "))
+ 
+# # iterating till the range
+# for i in range(0, n):
+#     ele = int(input())
+#     # adding the element
+#     lst.append(ele) 
+ 
+# print(lst)
 
 
 # number= list(range(1,20))
@@ -66,3 +95,12 @@ print(name)
 #         print(numbers.index(i))
 
 # neg(numbers)
+
+
+
+# a=[]
+# for i in range(int(input("numbers of element : "))):
+#     a.append(int(input()))
+
+# print(a)
+

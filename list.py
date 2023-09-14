@@ -124,6 +124,23 @@
 # print([i*-1 for i in range(1,11)])
 
 
-name=['ravi', 'pint', 'loki', 'raja']
+# name=['ravi', 'pint', 'loki', 'raja']
 
-print([i[0] for i in name])
+# print([i[0] for i in name])
+
+
+# nums=[1,2,3,4,5,6,7,8,9,10]
+
+# print([i for i in range(1,11) if i%2==0])
+
+# print([i*2 for i in nums if i%2==0 else: -1]) =======wrong
+
+
+
+
+# print([i*2 if i%2==0 else -i for i in nums])
+
+
+
+# print([[i for i in range(1,4)] for i in range(3)])
+print([[i for i in range(1,4)] for i in range(3)])

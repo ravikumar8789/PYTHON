@@ -66,7 +66,11 @@ info= {
     'fav footballers':['ronaldo', 'messi', 'ramos', 'benzema'],
 
 }
+dicton= dict(name='ravi', age=24)
+# print(dicton)
 
+for i,j in dicton.items():
+    print(i,j)
 # add information
 # info['fav character']= ['ironman', 'batman']
 # info['fav footballers']= ['kroos', 'david']

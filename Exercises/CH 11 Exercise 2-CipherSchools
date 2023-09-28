@@ -1,0 +1,15 @@
+def rev(l, **kwargs):
+    if kwargs.get('reverse_string')==True:
+        return [res[::-1].title() for res in l]
+    else:
+        return[res.title() for res in l]
+    
+
+
+
+
+
+lis=['ravi', 'pintu', 'raja','loki']
+# strin= reverse_string=True
+
+print(rev(lis, reverse_string=True))

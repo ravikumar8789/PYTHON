@@ -1,4 +1,4 @@
-# user= {'name':'ravi', 'age': 23, 'address': 'madhubani'}
+user= {'name':'ravi', 'age': 23, 'address': 'madhubani'}
 # # print(user)
 
 # user2 = dict(name = 'ravi', age = 23)
@@ -56,8 +56,8 @@
 #     print(f"{i}=> {key} {values}'")
 #     i+=1
 
-# for i,K in info.items():
-#     print(i,K)
+for i,K in user.items():
+    print(i,K)
 
 # info= {
 #     'name':'Ravi kumar',
@@ -87,7 +87,7 @@
 
 # clear()
 # copy()
-# get(key)
+# print(user('age'))
 
 
 
@@ -115,4 +115,4 @@ oe= {
 #     '2':5,
 #     '3'
 # }
-print({i:'odd' if i%2==0 else 'even' for i in range(1,11) })
+# print({i:'odd' if i%2==0 else 'even' for i in range(1,11) })

@@ -64,9 +64,9 @@ from functools import wraps
 # print(add.__doc__)
 
 
-def only_int(func):
-    @wraps(func)
-    def wrap(*args, **kwargs):
+# def only_int(func):
+#     @wraps(func)
+#     def wrap(*args, **kwargs):
         # dt=[]
         # for i in args:
         #     dt.append(type(i)==int)
@@ -74,16 +74,69 @@ def only_int(func):
         #     return func(*args, **kwargs)
         # else:
         #     return ('invalid input')
-        if all([type(i)==int for i in args]):
-            return func(*args, **kwargs)
-        return 'invalid argument'
-    return wrap
+#         if all([type(i)==int for i in args]):
+#             return func(*args, **kwargs)
+#         return 'invalid argument'
+#     return wrap
 
-@only_int
+# @only_int
+# def add(*args):
+#     tot=0
+#     for i in args:
+#         tot+=i
+#     return tot
+
+# print(add(1,2,3,4,5,'ravi'))
+
+
+# def dec(func):
+#     @wraps(func)
+#     def wrappers(*args, **kwargs):
+#         dt=[]
+#         for i in args:
+#             dt.append(type(i)==int)
+#         if all(dt):
+#             return func(*args, **kwargs)
+#         else:
+#             return 'invalid input'
+#     return wrappers
+
+# @dec
+# def add(*args):
+#     total=0
+#     for i in args:
+#         total+=i
+#     return total
+
+# print(add(1,2,3,4,5,'ravi'))
+
+
+
+
+def only_data_type(dt):
+    def decorator(function):
+        @wraps(function)
+        def wrapper(*args, **kwargs):
+            datatype=[]
+            for i in args:
+                datatype.append(type(i)==dt)
+            if all(datatype):
+                return function(*args,**kwargs)
+            else:
+                return 'invalid'
+        return wrapper
+    return decorator
+    
+
+
+@only_data_type(int)
 def add(*args):
-    tot=0
+    total=0
     for i in args:
-        tot+=i
-    return tot
+        total+=i
+    return total
 
-print(add(1,2,3,4,5,'ravi'))
+
+
+
+print(add(1,2,3,4,5))

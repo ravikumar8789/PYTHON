@@ -30,8 +30,8 @@
 
 # print(cpy)
 
-# line= "hello sendrela how are you".split()
-# print(line)
+line= "hello sendrela how are you".split()
+print(line)
 
 # str1='stte'
 # str1[2]='k'
@@ -143,4 +143,6 @@
 
 
 # print([[i for i in range(1,4)] for i in range(3)])
-print([[i for i in range(1,4)] for i in range(3)])
+# print([[i for i in range(1,4)] for i in range(3)])
+l=[1,2,3,4,5]
+print(sum(l))
